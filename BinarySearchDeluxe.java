@@ -38,7 +38,7 @@ public class BinarySearchDeluxe {
         return first;
     }
 
-    // Returns the index of the first key in the sorted array a[]
+    // Returns the index of the last key in the sorted array a[]
     // that is equal to the search key, or -1 if no such key.
     public static <Key> int lastIndexOf(Key[] a, Key key, Comparator<Key> comparator) {
         if (a == null || key == null || comparator == null)
